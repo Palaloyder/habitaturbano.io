@@ -1,0 +1,14 @@
+BUENO AVANZAMOS!
+
+
+Ultimar About us
+
+segui la regla de las 2 columnas miti miti RECORDA SACARLE LOS PADDINGS
+
+Ver de unir las default class
+
+EL MOBILE NO IMPORTA TODAVIA! no le des bola
+
+tantea si q sirva pa otras pantallas viene bien de momento
+
+Segui asi perri despues ordenas el codigo donde se pueda
