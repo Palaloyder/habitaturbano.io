@@ -86,6 +86,9 @@
             <h1 class="about-us-intro-title display-4">Lorem Ipsum</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam, nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida. Praesent tincidunt a orci et auctor.</p>
         </div>
+        <div class="col-1 no-nothing">
+
+        </div>
       </div>
 
       <div class="row row-about-us-outro  no-nothing">
@@ -93,7 +96,6 @@
         <div data-aos="fade-right" data-aos-duration="1200" class="col-xl-5 col-lg-5 no-nothing">
           <h1 class="about-us-outro-title display-4">QUIENES SOMOS</h1>
           <p class="about-us-outro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dictum nisl. Pellentesque iaculis interdum diam, vel tristique metus. Aliquam rhoncus mauris a dui sodales, a gravida est ultrices. Aliquam congue orci vel massa eleifend, nec cursus eros interdum. Phasellus nisi enim, interdum sollicitudin auctor a, pulvinar vitae mauris. Nam fermentum bibendum purus id lacinia. Nunc molestie faucibus erat, eget suscipit lacus semper eu. Ut id nibh ac urna sodales pharetra. Nam mollis nulla diam, ac vulputate velit maximus ut. Proin egestas suscipit turpis, id pretium justo vehicula interdum. Praesent in massa eros. Cras laoreet at libero sed scelerisque. Nam tempor sem et tincidunt ullamcorper. Sed quis laoreet eros, sed ullamcorper ante.</p>
-          <p class="about-us-outro-text">In egestas, leo in malesuada sodales, nunc ipsum aliquet arcu, sed tincidunt leo sapien a neque. Ut dictum nibh at risus consecte0tur hendrerit. Cras ac posuere odio.</p>
           </div>
 
         <div class="col-xl-6 col-lg-6 about-us-logo">

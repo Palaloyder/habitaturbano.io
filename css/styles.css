@@ -9,7 +9,9 @@ body {
     padding: 0;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+
 }
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 
@@ -151,11 +153,13 @@ body {
 
 .about-us-intro-text{
   text-align: left;
-  margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 10px;
   font-size: 2vh;
   color: white;
-  margin-top: 2%;
   font-weight: lighter;
+
+
 }
 
 .about-us-intro-title{
@@ -163,9 +167,8 @@ body {
   font-family: 'Josefin Slab', serif;
   text-align: left;
   display: inline-block;
-  margin-bottom: 0px;
 }
-  .about-us-title::before{
+  .about-us-intro-title::before{
     content: "";
     position: absolute;
     top: 60px;
@@ -196,12 +199,13 @@ body {
   margin-right: 20px;
   line-height: 2;
   text-align: justify;
+  font-size: 1rem;
 }
 
 .about-us-logo{
   background: url(images/intro-bg.jpg);
   background-size: cover;
-  /* height: 60vh; */
+  height: 60vh;
   justify-content:center;
   /* margin-top: 10%; */
 }
