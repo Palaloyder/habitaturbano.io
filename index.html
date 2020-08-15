@@ -86,7 +86,7 @@
             <h1 class="about-us-intro-title display-4">Lorem Ipsum</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam, nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida. Praesent tincidunt a orci et auctor.</p>
         </div>
-        <div class="col-1 no-nothing">
+        <div class="col no-nothing">
 
         </div>
       </div>
