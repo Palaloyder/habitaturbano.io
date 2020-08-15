@@ -70,7 +70,7 @@
       <div class="row row-intro no-nothing">
         <div class="col-12 intro-text">
           <span><img src="css/images/bird.png" class="ico-bird"></span>
-          <h1 class="title ml-auto mr-auto">HÁBITAT URBANO</h1>
+          <h1 class="title ml-auto mr-auto display-3 text-shadow-pop-bottom">HÁBITAT URBANO</h1>
           <h2 class="sub-title">Asesoramiento Ambiental</h2>
           <button class="btn btn-danger btn-lg" type="button" name="button">Contactanos</button>
         </div>
@@ -82,34 +82,35 @@
       <div class="row row-about-us-intro no-nothing shadow-lg">
           <div class="col-xl-6 col-lg-6 no-nothing pic">
           </div>
-        <div data-aos="fade-left" class="col-xl-5 col-lg-5 about-us-intro-text no-nothing">
-            <h1 class="about-us-title">ECO-URBANIZACIÓN</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam, nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida. Praesent tincidunt a orci et auctor.</p>
+        <div data-aos="fade-left" data-aos-duration="1200" class="col-xl-5 col-lg-5 about-us-intro-text no-nothing">
+            <h1 class="about-us-intro-title display-4">Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam, nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida. Praesent tincidunt a orci et auctor.</p>
         </div>
       </div>
-      <svg id="bigHalfCircle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="200" viewBox="0 0 100 100" preserveAspectRatio="none" fill="white">
-          <path d="M0 100 C40 0 60 0 100 100 Z"></path>
-        </svg>
-      <div class="row row-about-us-outro">
-        <div class="col-xl-2 col-lg-1 col no-nothing">
-        </div>
-        <div class="col-xl-4 col-lg-5 no-nothing">
 
-        </div>
-        <div class="col-xl-4 col-lg-5 no-nothing">
+      <div class="row row-about-us-outro  no-nothing">
+        <div class="col-xl-1 col-lg-1 col no-nothing"></div>
+        <div data-aos="fade-right" data-aos-duration="1200" class="col-xl-5 col-lg-5 no-nothing">
+          <h1 class="about-us-outro-title display-4">QUIENES SOMOS</h1>
+          <p class="about-us-outro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dictum nisl. Pellentesque iaculis interdum diam, vel tristique metus. Aliquam rhoncus mauris a dui sodales, a gravida est ultrices. Aliquam congue orci vel massa eleifend, nec cursus eros interdum. Phasellus nisi enim, interdum sollicitudin auctor a, pulvinar vitae mauris. Nam fermentum bibendum purus id lacinia. Nunc molestie faucibus erat, eget suscipit lacus semper eu. Ut id nibh ac urna sodales pharetra. Nam mollis nulla diam, ac vulputate velit maximus ut. Proin egestas suscipit turpis, id pretium justo vehicula interdum. Praesent in massa eros. Cras laoreet at libero sed scelerisque. Nam tempor sem et tincidunt ullamcorper. Sed quis laoreet eros, sed ullamcorper ante.</p>
+          <p class="about-us-outro-text">In egestas, leo in malesuada sodales, nunc ipsum aliquet arcu, sed tincidunt leo sapien a neque. Ut dictum nibh at risus consecte0tur hendrerit. Cras ac posuere odio.</p>
+          </div>
 
-        </div>
-        <div class="col-xl-2 col-lg-1 col no-nothing">
-
+        <div class="col-xl-6 col-lg-6 about-us-logo">
+            <div class="circle-back align-self-center shadow ">
+              <img src="css/images/ico-logo-white.png" class="pic-2 image-fluid"alt="">
+            </div>
         </div>
       </div>
   </article>
   <!-- ABOUT US SECTION END -->
-
+  <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="white" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+          <path d="M0 0 L50 100 L100 0 Z"></path>
+        </svg>
   <!-- CARUSELL SECTION -->
   <article id="SERVICIOS" class="carousell container-fluid no-nothing">
+
     <div class="row row-carousell no-nothing">
-      <!-- <div class="col-lg-1 col-md-1 no-nothing bg-white"> </div> -->
       <div class="col-lg-12 col-md-12 no-nothing">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -138,7 +139,6 @@
           </a>
         </div>
       </div>
-      <!-- <div class="col-lg-1 col-md-1 no-nothing bg-white"> </div> -->
     </div>
   </article>
 

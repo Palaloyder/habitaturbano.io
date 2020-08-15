@@ -84,7 +84,7 @@ body {
 
 .intro-text{
   text-align: center;
-  padding: 0 25% 15% 25%;
+  padding: 0 15% 15% 15%;
 }
 .title{
   font-family: 'Josefin Slab', serif;
@@ -134,12 +134,13 @@ body {
 .row-about-us-intro{
   padding: 0;
   background: #8C4745;
+  margin-bottom: 50px;
 }
 
 .row-about-us-outro{
   padding: 0;
   background: white;
-  height: 80vh;
+  height: 70vh;
 }
 
 .pic{
@@ -154,23 +155,68 @@ body {
   font-size: 2vh;
   color: white;
   margin-top: 2%;
+  font-weight: lighter;
 }
 
-.about-us-title{
+.about-us-intro-title{
   font-weight: bolder;
   font-family: 'Josefin Slab', serif;
   text-align: left;
   display: inline-block;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
   .about-us-title::before{
     content: "";
     position: absolute;
-    top: 50px;
-    border: solid 5px #EA5E5E;
-    width: 30%;
+    top: 60px;
+    border: solid 3px #EA5E5E;
+    width: 29%;
     border-radius: 30px;
   }
+
+  .about-us-outro-title{
+    font-weight: bolder;
+    font-family: 'Josefin Slab', serif;
+    text-align: left;
+    display: inline-block;
+    margin-top: 25px;
+  }
+    .about-us-outro-title::before{
+      content: "";
+      position: absolute;
+      top: 85px;
+      border: solid 3px #EA5E5E;
+      width: 35%;
+      border-radius: 30px;
+    }
+
+
+.about-us-outro-text{
+  margin-top: 5%;
+  margin-right: 20px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.about-us-logo{
+  background: url(images/intro-bg.jpg);
+  background-size: cover;
+  /* height: 60vh; */
+  justify-content:center;
+  /* margin-top: 10%; */
+}
+.circle-back{
+  border-radius: 200px;
+  background: rgba(93, 140, 59, .8);
+  display: inline-block;
+  transform: scale(2);
+  position: absolute;
+  top: 36%;
+  left: 38%;
+}
+.pic-2{
+  display: inline-block;
+}
 
 
 /* END OF ABOUT US SECTION */
@@ -180,8 +226,8 @@ body {
 /* CARUSELL SECTION */
 
 .carousell{
-  border-top: solid 100px white;
-}
+  border-top: solid 50px lightgrey ;
+  }
 
 
 /* PRE PROD */
@@ -189,4 +235,8 @@ body {
   background: lightblue;
   height: 900px;
   width: 100%;
+}
+
+#bigTriangleColor{
+  background: lightgrey;
 }
