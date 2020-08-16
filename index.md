@@ -30,8 +30,6 @@
 
 <body>
 
-  <!-- //////////////////////////////////////////////////////////////////// -->
-
   <!-- MAIN CONTAINER -->
   <div class="row main-row no-nothing">
     <!-- NAVIGATION BAR -->
@@ -50,7 +48,7 @@
               <a class="nav-link" href="#ABOUT-US">QUIÉNES SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SOLUCIONES</a>
+              <a class="nav-link" href="#SOLUCIONES">SOLUCIONES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACTO</a>
@@ -61,10 +59,9 @@
           </ul>
         </div>
       </nav>
-
     </section>
     <!-- END OF NAVIGATION BAR -->
-
+    <!-- //////////////////////////////////////////////////////////////////// -->
     <!-- INTRO CONT -->
     <article id="INTRO" class="container-fluid no-nothing">
       <div class="row row-intro no-nothing">
@@ -72,84 +69,135 @@
           <span><img src="css/images/bird.png" class="ico-bird"></span>
           <h1 class="title ml-auto mr-auto display-3 text-shadow-pop-bottom">HÁBITAT URBANO</h1>
           <h2 class="sub-title">Asesoramiento Ambiental</h2>
-          <button class="btn btn-danger btn-lg" type="button" name="button">Contactanos</button>
+          <button class="btn btn-danger btn-danger-intro btn-lg" type="button" name="button">Contactanos</button>
         </div>
       </div>
     </article>
-
+    <!-- END INTRO CONT -->
+    <!-- //////////////////////////////////////////////////////////////////// -->
     <!-- ABOUT US SECTION -->
-    <article id="ABOUT-US" class="about-us container-fluid no-nothing">
-      <div class="row row-about-us-intro no-nothing shadow-lg">
-          <div class="col-xl-6 col-lg-6 no-nothing pic">
-          </div>
+    <!-- INTRO ABOUT US -->
+    <article id="ABOUT-US" class="about-us container-fluid no-nothing shadow-lg">
+      <div class="row row-about-us-intro no-nothing">
+        <div class="col-xl-6 col-lg-6 no-nothing pic">
+        </div>
         <div data-aos="fade-left" data-aos-duration="1200" class="col-xl-5 col-lg-5 about-us-intro-text no-nothing">
-            <h1 class="about-us-intro-title display-4">Lorem Ipsum</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam, nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida. Praesent tincidunt a orci et auctor.</p>
+          <h1 class="about-us-intro-title display-4">Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a sem a enim sollicitudin interdum. Nam convallis porttitor sapien, et fringilla sem iaculis in. Cras pellentesque, libero id ultrices rhoncus, odio tellus ultrices quam,
+            nec dapibus ipsum nisl et orci. Integer faucibus lorem sed nulla lacinia consectetur. Ut vel enim quis lorem fringilla consectetur at non metus. Nullam molestie ante metus, ac viverra enim cursus nec. Ut sed arcu feugiat, venenatis turpis
+            id, semper nisl. Cras magna massa, vulputate in porttitor eu, laoreet non est. Sed aliquam purus a elementum gravida.</p>
         </div>
-        <div class="col no-nothing">
-
-        </div>
+        <div class="col no-nothing"></div>
       </div>
 
+      <!-- <svg id="bigTriangleColor" class="separator-1" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="white" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+              <path d="M0 0 L50 100 L100 0 Z"></path>
+            </svg> -->
+      <!-- OUTRO ABOUT US -->
       <div class="row row-about-us-outro  no-nothing">
         <div class="col-xl-1 col-lg-1 col no-nothing"></div>
         <div data-aos="fade-right" data-aos-duration="1200" class="col-xl-5 col-lg-5 no-nothing">
           <h1 class="about-us-outro-title display-4">QUIENES SOMOS</h1>
-          <p class="about-us-outro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dictum nisl. Pellentesque iaculis interdum diam, vel tristique metus. Aliquam rhoncus mauris a dui sodales, a gravida est ultrices. Aliquam congue orci vel massa eleifend, nec cursus eros interdum. Phasellus nisi enim, interdum sollicitudin auctor a, pulvinar vitae mauris. Nam fermentum bibendum purus id lacinia. Nunc molestie faucibus erat, eget suscipit lacus semper eu. Ut id nibh ac urna sodales pharetra. Nam mollis nulla diam, ac vulputate velit maximus ut. Proin egestas suscipit turpis, id pretium justo vehicula interdum. Praesent in massa eros. Cras laoreet at libero sed scelerisque. Nam tempor sem et tincidunt ullamcorper. Sed quis laoreet eros, sed ullamcorper ante.</p>
-          </div>
+          <p class="about-us-outro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dictum nisl. Pellentesque iaculis interdum diam, vel tristique metus. Aliquam rhoncus mauris a dui sodales, a gravida est ultrices. Aliquam
+            congue orci vel massa eleifend, nec cursus eros interdum. Phasellus nisi enim, interdum sollicitudin auctor a, pulvinar vitae mauris. Nam fermentum bibendum purus id lacinia. Nunc molestie faucibus erat, eget suscipit lacus semper eu. Ut
+            id nibh ac urna sodales pharetra. Nam mollis nulla diam, ac vulputate velit maximus ut. Proin egestas suscipit turpis, id pretium justo vehicula interdum. Praesent in massa eros. Cras laoreet at libero sed scelerisque. Nam tempor sem et
+          </p>
+        </div>
 
-        <div class="col-xl-6 col-lg-6 about-us-logo">
-            <div class="circle-back align-self-center shadow ">
-              <img src="css/images/ico-logo-white.png" class="pic-2 image-fluid"alt="">
-            </div>
+        <div class="col-xl-6 col-lg-6 about-us-logo shadow">
+          <div class="circle-back align-self-center shadow ">
+            <img data-aos="zoom-in" data-aos-duration="1200" src="css/images/ico-logo-white-lg.png" class="pic-2 image-fluid" alt="">
+          </div>
         </div>
       </div>
-  </article>
-  <!-- ABOUT US SECTION END -->
-  <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="white" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
-          <path d="M0 0 L50 100 L100 0 Z"></path>
-        </svg>
-  <!-- CARUSELL SECTION -->
-  <article id="SERVICIOS" class="carousell container-fluid no-nothing">
+      <svg id="curveUpColor" fill="white" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+    </article>
+    <!--END OF ABOUT US SECTION -->
 
-    <div class="row row-carousell no-nothing">
-      <div class="col-lg-12 col-md-12 no-nothing">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="css/images/carousell1.jpg" class="d-block w-100" alt="...">
+    <!-- SERVICIOS -->
+    <article id="SOLUCIONES" class="solutions">
+      <h1 class="display-4 solutions-title">SOLUCIONES</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet posuere ipsum, vel elementum augue consectetur sed. Proin convallis magna purus, in tincidunt massa dictum eu. </h3>
+      <div class="row row-solutions no-nothing">
+        <div class="col-1 no-nothing"></div>
+        <div class="col no-nothing">
+          <div class="card-deck">
+            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+              <img src="css/images/water-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Lagos">
+              <div class="card-body">
+                <h4 class="card-title">LAGOS</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet posuere ipsum, vel elementum augue consectetur sed. Proin convallis magna purus, in tincidunt massa dictum eu.</p>
+                <a href="#" class="btn btn-danger btn-danger-solutions">Saber mas</a>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="css/images/carousell2.jpg" class="d-block w-100" alt="...">
+            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+              <img src="css/images/leaf-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Flora">
+              <div class="card-body">
+                <h4 class="card-title">FLORA</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet posuere ipsum, vel elementum augue consectetur sed. Proin convallis magna purus, in tincidunt massa dictum eu.</p>
+                <a href="#" class="btn btn-danger btn-danger-solutions">Saber mas</a>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="css/images/carousell3.jpg" class="d-block w-100" alt="...">
+            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+              <img src="css/images/paw-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Fauna">
+              <div class="card-body">
+                <h4 class="card-title">FAUNA</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet posuere ipsum, vel elementum augue consectetur sed. Proin convallis magna purus, in tincidunt massa dictum eu.</p>
+                <a href="#" class="btn btn-danger btn-danger-solutions">Saber mas</a>
+              </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
+        <div class="col-1 no-nothing"></div>
+      </div>
+
+    </article>
+
+    <!-- SERVICIOS END -->
+
+    <!-- CARUSELL SECTION -->
+    <article id="CAROUSELL-SERVICIOS" class="carousell container-fluid no-nothing">
+
+      <div class="row row-carousell no-nothing">
+        <div class="col-lg-12 col-md-12 no-nothing">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="css/images/carousell1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="css/images/carousell2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="css/images/carousell3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </article>
+    </article>
 
 
-  <!-- REVISAR TAMANOS DE LAS FOTOS  -->
+    <!-- REVISAR TAMANOS DE LAS FOTOS  -->
 
 
 
-  <!-- PRE PROD -->
+    <!-- PRE PROD -->
 
   </div>
 
