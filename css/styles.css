@@ -81,9 +81,7 @@ body {
 /* END OF CONTAINER CORRECTIONS */
 
 /* INTRO SECTION */
-.row-intro{
-  height: 90vh;
-}
+
 
 .intro-text{
   text-align: center;
@@ -140,18 +138,18 @@ body {
   padding: 0;
   background: #EA5E5E;
   margin-bottom: 50px;
+  min-height: 40vh;
 }
 
 .row-about-us-outro{
   padding: 0;
-  height: 70vh;
   margin-bottom: 50px;
+  min-height: 50vh;
 }
 
 .pic{
   background: url(images/aboutusbg.jpg);
   background-size: cover;
-  height: 50vh;
 }
 
 .about-us-intro-text{
@@ -206,19 +204,16 @@ body {
 .about-us-logo{
   background: url(images/about-us-outro-bg.jpeg);
   background-size: contain;
-  /* height: 60vh; */
   justify-content:center;
-  /* margin-top: 10%; */
 }
 .circle-back{
   border-radius: 200px;
   background-color: white;
   background-color: rgba(6, 38, 32, .8);
-
   display: inline-block;
   transform: scale(2);
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 38%;
 }
 .pic-2{
@@ -239,6 +234,15 @@ body {
 .row-solutions{
   margin: 55px 0;
 }
+
+.card{
+  border-radius: 20px;
+}
+
+.card-lagos:hover{
+
+}
+
 .card-title{
   position: relative;
 }
@@ -285,7 +289,7 @@ body {
 }
 
 /* END OF SERVICES SECTION */
-/* CARUSELL SECTION */  
+/* CARUSELL SECTION */
 
 /* PRE PROD */
 .dummy-relleno{

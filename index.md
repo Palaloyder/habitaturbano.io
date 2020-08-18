@@ -96,7 +96,7 @@
       <!-- OUTRO ABOUT US -->
       <div class="row row-about-us-outro  no-nothing">
         <div class="col-xl-1 col-lg-1 col no-nothing"></div>
-        <div data-aos="fade-right" data-aos-duration="1200" class="col-xl-5 col-lg-5 no-nothing">
+        <div data-aos="fade-right" data-aos-duration="2500" class="col-xl-5 col-lg-5 no-nothing">
           <h1 class="about-us-outro-title display-4">QUIENES SOMOS</h1>
           <p class="about-us-outro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dictum nisl. Pellentesque iaculis interdum diam, vel tristique metus. Aliquam rhoncus mauris a dui sodales, a gravida est ultrices. Aliquam
             congue orci vel massa eleifend, nec cursus eros interdum. Phasellus nisi enim, interdum sollicitudin auctor a, pulvinar vitae mauris. Nam fermentum bibendum purus id lacinia. Nunc molestie faucibus erat, eget suscipit lacus semper eu. Ut
@@ -105,8 +105,8 @@
         </div>
 
         <div class="col-xl-6 col-lg-6 about-us-logo shadow">
-          <div class="circle-back align-self-center shadow ">
-            <img data-aos="zoom-in" data-aos-duration="1200" src="css/images/ico-logo-white-lg.png" class="pic-2 image-fluid" alt="">
+          <div class="circle-back shadow ">
+            <img src="css/images/ico-logo-white-lg.png" class="pic-2 image-fluid" alt="">
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@
         <div class="col-1 no-nothing"></div>
         <div class="col no-nothing">
           <div class="card-deck">
-            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+            <div data-aos="fade-down" data-aos-duration="1200" class="card card2 shadow">
               <img src="css/images/water-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Lagos">
               <div class="card-body">
                 <h4 class="card-title">LAGOS</h4>
@@ -132,7 +132,7 @@
                 <a href="#" class="btn btn-danger btn-danger-solutions">Saber mas</a>
               </div>
             </div>
-            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+            <div data-aos="fade-down" data-aos-duration="1900" class="card shadow">
               <img src="css/images/leaf-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Flora">
               <div class="card-body">
                 <h4 class="card-title">FLORA</h4>
@@ -140,7 +140,7 @@
                 <a href="#" class="btn btn-danger btn-danger-solutions">Saber mas</a>
               </div>
             </div>
-            <div data-aos="fade-down" data-aos-duration="1200" class="card shadow">
+            <div data-aos="fade-down" data-aos-duration="2500" class="card shadow">
               <img src="css/images/paw-solid.svg" class="card-img-top card-img mr-auto ml-auto" alt="Fauna">
               <div class="card-body">
                 <h4 class="card-title">FAUNA</h4>
